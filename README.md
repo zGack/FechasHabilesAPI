@@ -9,7 +9,7 @@ A comprehensive REST API for calculating Colombian business days and hours, impl
 - **Lunch break**: 12:00 PM - 1:00 PM (excluded from calculations)
 - **Timezone**: America/Bogota
 - **Holidays**: Colombian holidays fetched from external API
-- **Approximation**: Non-working times adjusted to nearest business time
+- **Approximation**: Non-working times adjusted to previous nearest business time
 
 ## 🛠️ Installation
 

@@ -6,7 +6,7 @@ import { BusinessTimeCalculator } from './businessTime'
 
 const app = express()
 const PORT = process.env.PORT || 3000
-const HOLIDAYS_URL = process.env.HOLIDAYS_URL || 'https://content.capta.co/Recruitment/WorkingDays.json'
+const HOLIDAYS_URL = process.env.HOLIDAYS_URL || ''
 
 // Middleware
 app.use(express.json())
